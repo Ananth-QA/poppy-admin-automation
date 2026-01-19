@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Poppy Admin Suite">
+
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.BaseSmokeTest"></class>
+            <class name="tests.VideoMediaFlowTest"></class>
+            <class name="tests.PosterMediaFlowTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,55 @@
+2026-01-14 16:51:00.871 [main] INFO  LogUtil - 🚀 TEST SUITE STARTED: Default test
+2026-01-14 16:51:01.159 [main] INFO  LogUtil - ========== TEST SETUP STARTED ==========
+2026-01-14 16:51:20.908 [main] INFO  LogUtil - WebDriver initialized successfully
+2026-01-14 16:51:24.879 [main] INFO  LogUtil - Navigated to URL: https://tempedditingadmin.poppyindia.com/
+2026-01-14 16:51:24.934 [main] INFO  LogUtil - Starting login flow
+2026-01-14 16:51:25.836 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-14 16:51:26.253 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-14 16:51:29.891 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-14 16:51:30.138 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-14 16:51:32.642 [main] INFO  LogUtil - Dashboard Header is displayed
+2026-01-14 16:51:32.884 [main] INFO  LogUtil - Total Media Count after login: TOTAL MEDIA
+70
+2026-01-14 16:51:32.886 [main] INFO  LogUtil - Login + dashboard verification completed successfully
+2026-01-14 16:51:32.886 [main] INFO  LogUtil - Login successful. Proceeding with tests.
+2026-01-14 16:51:32.886 [main] INFO  LogUtil - ========== TEST SETUP COMPLETED ==========
+2026-01-14 16:51:32.973 [main] INFO  LogUtil - ▶ STARTED TEST: verifyUserProfilesFlow
+2026-01-14 16:51:35.808 [main] INFO  LogUtil - User Profiles Menu clicked
+2026-01-14 16:51:56.092 [main] INFO  LogUtil - New Profile Button clicked
+2026-01-14 16:51:57.098 [main] INFO  LogUtil - User Name e	ntered successfully
+2026-01-14 16:51:57.856 [main] INFO  LogUtil - User Email e	ntered successfully
+2026-01-14 16:51:58.196 [main] INFO  LogUtil - Password e	ntered successfully
+2026-01-14 16:51:58.679 [main] INFO  LogUtil - Mobile Number e	ntered successfully
+2026-01-14 16:51:58.963 [main] INFO  LogUtil - Add New User clicked
+2026-01-14 16:52:19.576 [main] ERROR LogUtil - ✖ FAILED TEST: verifyUserProfilesFlow
+2026-01-14 16:52:19.904 [main] INFO  LogUtil - 🏁 TEST SUITE FINISHED: Default test
+2026-01-14 16:52:44.649 [main] INFO  LogUtil - 🚀 TEST SUITE STARTED: Default test
+2026-01-14 16:52:44.933 [main] INFO  LogUtil - ========== TEST SETUP STARTED ==========
+2026-01-14 16:52:54.489 [main] INFO  LogUtil - WebDriver initialized successfully
+2026-01-14 16:52:56.510 [main] INFO  LogUtil - Navigated to URL: https://tempedditingadmin.poppyindia.com/
+2026-01-14 16:52:56.530 [main] INFO  LogUtil - Starting login flow
+2026-01-14 16:52:59.315 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-14 16:52:59.747 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-14 16:53:04.346 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-14 16:53:10.460 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-14 16:53:11.717 [main] INFO  LogUtil - Dashboard Header is displayed
+2026-01-14 16:53:12.476 [main] INFO  LogUtil - Total Media Count after login: TOTAL MEDIA
+70
+2026-01-14 16:53:12.482 [main] INFO  LogUtil - Login + dashboard verification completed successfully
+2026-01-14 16:53:12.486 [main] INFO  LogUtil - Login successful. Proceeding with tests.
+2026-01-14 16:53:12.486 [main] INFO  LogUtil - ========== TEST SETUP COMPLETED ==========
+2026-01-14 16:53:12.708 [main] INFO  LogUtil - ▶ STARTED TEST: verifyUserCanLoginWithProfileCredentials
+2026-01-14 16:53:16.569 [main] INFO  LogUtil - User Profiles Menu clicked
+2026-01-14 16:53:37.145 [main] INFO  LogUtil - Profile Icon clicked
+2026-01-14 16:53:38.823 [main] INFO  LogUtil - Logout Button clicked
+2026-01-14 16:53:38.826 [main] INFO  LogUtil - Starting login using profile credentials
+2026-01-14 16:53:39.305 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-14 16:53:39.741 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-14 16:53:40.772 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-14 16:53:40.865 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-14 16:54:01.129 [main] ERROR LogUtil - Dashboard Header is NOT displayed
+2026-01-14 16:54:01.129 [main] WARN  LogUtil - Dashboard not visible after profile login
+2026-01-14 16:54:01.130 [main] WARN  LogUtil - Profile login failed
+2026-01-14 16:54:21.321 [main] ERROR LogUtil - Dashboard Header is NOT displayed
+2026-01-14 16:54:23.807 [main] ERROR LogUtil - ✖ FAILED TEST: verifyUserCanLoginWithProfileCredentials
+2026-01-14 16:54:25.217 [main] INFO  LogUtil - 🏁 TEST SUITE FINISHED: Default test
