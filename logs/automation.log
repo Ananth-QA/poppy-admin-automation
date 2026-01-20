@@ -53,3 +53,98 @@
 2026-01-14 16:54:21.321 [main] ERROR LogUtil - Dashboard Header is NOT displayed
 2026-01-14 16:54:23.807 [main] ERROR LogUtil - ✖ FAILED TEST: verifyUserCanLoginWithProfileCredentials
 2026-01-14 16:54:25.217 [main] INFO  LogUtil - 🏁 TEST SUITE FINISHED: Default test
+2026-01-19 12:52:41.931 [main] INFO  LogUtil - 🚀 TEST SUITE STARTED: Smoke Tests
+2026-01-19 12:52:42.155 [main] INFO  LogUtil - ========== TEST SETUP STARTED ==========
+2026-01-19 12:52:50.356 [main] INFO  LogUtil - WebDriver initialized successfully
+2026-01-19 12:52:51.676 [main] INFO  LogUtil - Navigated to URL: https://axis.poppyindia.com/
+2026-01-19 12:52:51.690 [main] INFO  LogUtil - Starting login flow
+2026-01-19 12:52:52.269 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-19 12:52:52.517 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-19 12:52:54.458 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-19 12:52:54.650 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-19 12:52:55.854 [main] INFO  LogUtil - Dashboard Header is displayed
+2026-01-19 12:52:55.987 [main] INFO  LogUtil - Total Media Count after login: TOTAL MEDIA
+28
+2026-01-19 12:52:55.987 [main] INFO  LogUtil - Login + dashboard verification completed successfully
+2026-01-19 12:52:55.987 [main] INFO  LogUtil - Login successful. Proceeding with tests.
+2026-01-19 12:52:55.987 [main] INFO  LogUtil - ========== TEST SETUP COMPLETED ==========
+2026-01-19 12:52:56.027 [main] INFO  LogUtil - ▶ STARTED TEST: verifyDashboard
+2026-01-19 12:52:56.369 [main] INFO  LogUtil - ✔ PASSED TEST: verifyDashboard
+2026-01-19 12:52:56.478 [main] INFO  LogUtil - 🏁 TEST SUITE FINISHED: Smoke Tests
+2026-01-19 12:56:24.457 [main] INFO  LogUtil - 🚀 TEST SUITE STARTED: Smoke Tests
+2026-01-19 12:56:24.588 [main] INFO  LogUtil - ========== TEST SETUP STARTED ==========
+2026-01-19 12:56:28.272 [main] INFO  LogUtil - WebDriver initialized successfully
+2026-01-19 12:56:29.653 [main] INFO  LogUtil - Navigated to URL: https://axis.poppyindia.com/
+2026-01-19 12:56:29.672 [main] INFO  LogUtil - Starting login flow
+2026-01-19 12:56:30.335 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-19 12:56:30.570 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-19 12:56:31.096 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-19 12:56:32.610 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-19 12:56:33.825 [main] INFO  LogUtil - Dashboard Header is displayed
+2026-01-19 12:56:33.959 [main] INFO  LogUtil - Total Media Count after login: TOTAL MEDIA
+24
+2026-01-19 12:56:33.963 [main] INFO  LogUtil - Login + dashboard verification completed successfully
+2026-01-19 12:56:33.963 [main] INFO  LogUtil - Login successful. Proceeding with tests.
+2026-01-19 12:56:33.965 [main] INFO  LogUtil - ========== TEST SETUP COMPLETED ==========
+2026-01-19 12:56:34.001 [main] INFO  LogUtil - ▶ STARTED TEST: verifyDashboard
+2026-01-19 12:56:34.377 [main] INFO  LogUtil - ✔ PASSED TEST: verifyDashboard
+2026-01-19 12:56:34.486 [main] INFO  LogUtil - 🏁 TEST SUITE FINISHED: Smoke Tests
+2026-01-19 12:56:59.273 [main] INFO  LogUtil - 🚀 TEST SUITE STARTED: Default test
+2026-01-19 12:56:59.391 [main] INFO  LogUtil - ========== TEST SETUP STARTED ==========
+2026-01-19 12:57:04.609 [main] INFO  LogUtil - WebDriver initialized successfully
+2026-01-19 12:57:06.270 [main] INFO  LogUtil - Navigated to URL: https://axis.poppyindia.com/
+2026-01-19 12:57:06.297 [main] INFO  LogUtil - Starting login flow
+2026-01-19 12:57:06.814 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-19 12:57:07.051 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-19 12:57:08.417 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-19 12:57:08.498 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-19 12:57:09.764 [main] INFO  LogUtil - Dashboard Header is displayed
+2026-01-19 12:57:09.914 [main] INFO  LogUtil - Total Media Count after login: TOTAL MEDIA
+28
+2026-01-19 12:57:09.914 [main] INFO  LogUtil - Login + dashboard verification completed successfully
+2026-01-19 12:57:09.914 [main] INFO  LogUtil - Login successful. Proceeding with tests.
+2026-01-19 12:57:09.914 [main] INFO  LogUtil - ========== TEST SETUP COMPLETED ==========
+2026-01-19 12:57:09.956 [main] INFO  LogUtil - ▶ STARTED TEST: verifyUserProfilesFlow
+2026-01-19 12:57:10.714 [main] INFO  LogUtil - User Profiles Menu clicked
+2026-01-19 12:57:30.926 [main] INFO  LogUtil - New Profile Button clicked
+2026-01-19 12:57:31.719 [main] INFO  LogUtil - User Name e	ntered successfully
+2026-01-19 12:57:31.970 [main] INFO  LogUtil - User Email e	ntered successfully
+2026-01-19 12:57:32.123 [main] INFO  LogUtil - Password e	ntered successfully
+2026-01-19 12:57:32.333 [main] INFO  LogUtil - Mobile Number e	ntered successfully
+2026-01-19 12:57:32.628 [main] INFO  LogUtil - Add New User clicked
+2026-01-19 12:58:01.014 [main] INFO  LogUtil - 🚀 TEST SUITE STARTED: Default test
+2026-01-19 12:58:01.112 [main] INFO  LogUtil - ========== TEST SETUP STARTED ==========
+2026-01-19 12:58:06.826 [main] INFO  LogUtil - WebDriver initialized successfully
+2026-01-19 12:58:10.521 [main] INFO  LogUtil - Navigated to URL: https://axis.poppyindia.com/
+2026-01-19 12:58:10.539 [main] INFO  LogUtil - Starting login flow
+2026-01-19 12:58:11.067 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-19 12:58:11.256 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-19 12:58:14.488 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-19 12:58:14.557 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-19 12:58:15.682 [main] INFO  LogUtil - Dashboard Header is displayed
+2026-01-19 12:58:15.809 [main] INFO  LogUtil - Total Media Count after login: TOTAL MEDIA
+21
+2026-01-19 12:58:15.809 [main] INFO  LogUtil - Login + dashboard verification completed successfully
+2026-01-19 12:58:15.809 [main] INFO  LogUtil - Login successful. Proceeding with tests.
+2026-01-19 12:58:15.813 [main] INFO  LogUtil - ========== TEST SETUP COMPLETED ==========
+2026-01-19 12:58:15.846 [main] INFO  LogUtil - ▶ STARTED TEST: verifyDashboard
+2026-01-19 12:58:16.136 [main] INFO  LogUtil - ✔ PASSED TEST: verifyDashboard
+2026-01-19 12:58:16.268 [main] INFO  LogUtil - 🏁 TEST SUITE FINISHED: Default test
+2026-01-19 12:58:47.695 [main] INFO  LogUtil - 🚀 TEST SUITE STARTED: Smoke Tests
+2026-01-19 12:58:47.867 [main] INFO  LogUtil - ========== TEST SETUP STARTED ==========
+2026-01-19 12:58:52.452 [main] INFO  LogUtil - WebDriver initialized successfully
+2026-01-19 12:58:54.026 [main] INFO  LogUtil - Navigated to URL: https://axis.poppyindia.com/
+2026-01-19 12:58:54.068 [main] INFO  LogUtil - Starting login flow
+2026-01-19 12:58:54.752 [main] INFO  LogUtil - Email Field e	ntered successfully
+2026-01-19 12:58:54.966 [main] INFO  LogUtil - Password Field e	ntered successfully
+2026-01-19 12:58:56.255 [main] INFO  LogUtil - Sign In Button clicked
+2026-01-19 12:58:56.314 [main] INFO  LogUtil - Post Login Browser Confirmation not present – continuing
+2026-01-19 12:58:57.631 [main] INFO  LogUtil - Dashboard Header is displayed
+2026-01-19 12:58:57.807 [main] INFO  LogUtil - Total Media Count after login: TOTAL MEDIA
+24
+2026-01-19 12:58:57.809 [main] INFO  LogUtil - Login + dashboard verification completed successfully
+2026-01-19 12:58:57.815 [main] INFO  LogUtil - Login successful. Proceeding with tests.
+2026-01-19 12:58:57.815 [main] INFO  LogUtil - ========== TEST SETUP COMPLETED ==========
+2026-01-19 12:58:57.868 [main] INFO  LogUtil - ▶ STARTED TEST: verifyDashboard
+2026-01-19 12:58:58.278 [main] INFO  LogUtil - ✔ PASSED TEST: verifyDashboard
+2026-01-19 12:58:58.430 [main] INFO  LogUtil - 🏁 TEST SUITE FINISHED: Smoke Tests

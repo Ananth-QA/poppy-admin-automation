@@ -2,6 +2,13 @@
 
 <suite name="Poppy Admin Suite">
 
+
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+
     <test name="Smoke Tests">
         <groups>
             <run>
@@ -13,6 +20,7 @@
             <class name="tests.BaseSmokeTest"></class>
             <class name="tests.VideoMediaFlowTest"></class>
             <class name="tests.PosterMediaFlowTest"></class>
+            <class name="tests.UserProfileLoginFlowTest"></class>
         </classes>
     </test>
 </suite>
