@@ -1,4 +1,4 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Poppy Admin Suite">
 
@@ -20,7 +20,47 @@
             <class name="tests.BaseSmokeTest"></class>
             <class name="tests.VideoMediaFlowTest"></class>
             <class name="tests.PosterMediaFlowTest"></class>
+            <class name="tests.UserProfileFlowTest"></class>
             <class name="tests.UserProfileLoginFlowTest"></class>
         </classes>
     </test>
+</suite>
+-->
+
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Poppy Admin Suite" parallel="false" verbose="1">
+
+    <!-- ✅ LISTENERS (MANDATORY FOR ALLURE RESULTS) -->
+    <listeners>
+        <!-- Allure core TestNG listener -->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+
+        <!-- Your custom listener for logs, screenshots, exceptions -->
+        <listener class-name="listeners.AllureTestListener"/>
+    </listeners>
+
+    <!-- ✅ SMOKE TEST EXECUTION -->
+    <test name="Smoke Tests">
+
+        <!-- Group configuration -->
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <!-- Test classes -->
+        <classes>
+            <class name="tests.BaseSmokeTest"/>
+            <class name="tests.VideoMediaFlowTest"/>
+            <class name="tests.PosterMediaFlowTest"/>
+            <class name="tests.UserProfileFlowTest"/>
+            <class name="tests.UserProfileLoginFlowTest"/>
+        </classes>
+
+    </test>
+
 </suite>
