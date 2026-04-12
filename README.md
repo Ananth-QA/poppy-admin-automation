@@ -278,15 +278,15 @@ mvn test
 
 ### 👤 User Profile Automation
 
-▶️ https://your-video-link-1
+▶️ https://youtu.be/RB6dVYbWCBE
 
 ### 🖼️ Poster Creation & Validation
 
-▶️ https://your-video-link-2
+▶️ https://youtu.be/1JQ8Q9PgK5k
 
 ### 🎬 Video Creation & Validation
 
-▶️ https://your-video-link-3
+▶️ https://youtu.be/KCve98tZwis
 
 ---
 
